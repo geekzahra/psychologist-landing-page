@@ -10,13 +10,16 @@
   }
 }
 
-*{
+*:not(span i, a i, button){
     font-family: 'VazirMatn' !important;
-    direction: rtl;
     text-align: right;
 }
 
-h1:not(.display-2), .text-center p, .testimonials__name h3, .testimonials__name p{
+*{
+  direction: rtl;
+}
+
+h1:not(.display-2), .text-center p, .testimonials__name h3, .testimonials__name p, span i{
   text-align: center !important;
 }
 
@@ -584,6 +587,11 @@ progress {
   max-width: 100%;
   scale: 1.4;
   padding-top: 7%;
+  height: auto;
+}
+
+.avatar{
+  max-width: 100%;
   height: auto;
 }
 
