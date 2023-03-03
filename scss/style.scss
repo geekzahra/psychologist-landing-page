@@ -20,19 +20,15 @@
 // FONTS
 @font-face {
     font-family: "VazirMatn";
-    src: url("../fonts/Vazirmatn-Regular.woff2") format("woff2");
+    src: url("../assets/fonts/Vazirmatn-Regular.woff2") format("woff2");
 }
 @font-face {
     font-family: "VazirMatn-Bold";
-    src: url("../fonts/Vazirmatn-Bold.woff2") format("woff2");
+    src: url("../assets/fonts/Vazirmatn-Bold.woff2") format("woff2");
 }
 
 *{
     font-family: 'VazirMatn' !important;
     direction: rtl;
-    text-align: right;
-}
-
-*:not(text-center){
     text-align: right;
 }
