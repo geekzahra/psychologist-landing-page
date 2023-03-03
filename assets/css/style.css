@@ -10057,7 +10057,7 @@ textarea.form-control-lg {
   font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 600;
-  margin-right: 0.5rem;
+  margin-left: 0.5rem;
   font-size: 1.2rem;
 }
 
@@ -10182,6 +10182,23 @@ textarea.form-control-lg {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@font-face {
+  font-family: "VazirMatn";
+  src: url("../fonts/Vazirmatn-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "VazirMatn-Bold";
+  src: url("../fonts/Vazirmatn-Bold.woff2") format("woff2");
+}
+* {
+  direction: rtl;
+  text-align: right;
+}
+
+*:not(text-center) {
+  text-align: right;
 }
 
 /*# sourceMappingURL=style.css.map */

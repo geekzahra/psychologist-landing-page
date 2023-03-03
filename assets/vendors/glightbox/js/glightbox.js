@@ -2545,7 +2545,7 @@
           var styleSheet = document.createElement('style');
           styleSheet.type = 'text/css';
           styleSheet.className = 'gcss-styles';
-          styleSheet.innerText = ".gscrollbar-fixer {margin-right: ".concat(scrollBar, "px}");
+          styleSheet.innerText = ".gscrollbar-fixer {margin-left: ".concat(scrollBar, "px}");
           document.head.appendChild(styleSheet);
 
           addClass(body, 'gscrollbar-fixer');
