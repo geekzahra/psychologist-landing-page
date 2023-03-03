@@ -9787,6 +9787,7 @@ textarea.form-control-lg {
   border-radius: 50%;
 }
 .btn-rounded span i {
+  margin-right: 30%;
   color: #fff;
   font-size: 1rem;
   line-height: 2.5rem;
