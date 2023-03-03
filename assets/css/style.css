@@ -9,6 +9,17 @@
     opacity: 0;
   }
 }
+
+*{
+    font-family: 'VazirMatn' !important;
+    direction: rtl;
+    text-align: right;
+}
+
+h1:not(.display-2), .text-center p, .testimonials__name h3, .testimonials__name p{
+  text-align: center !important;
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -571,6 +582,8 @@ progress {
 
 .img-fluid {
   max-width: 100%;
+  scale: 1.4;
+  padding-top: 7%;
   height: auto;
 }
 
