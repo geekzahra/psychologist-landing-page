@@ -584,7 +584,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 98%;
   scale: 1.4;
   padding-top: 7%;
   height: auto;
