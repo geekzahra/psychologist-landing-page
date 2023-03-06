@@ -584,9 +584,11 @@ progress {
 }
 
 .img-fluid {
+  padding-right: 5%;
   max-width: 98%;
   scale: 1.4;
   padding-top: 7%;
+  padding-bottom: 7%;
   height: auto;
 }
 
