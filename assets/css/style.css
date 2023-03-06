@@ -148,6 +148,9 @@ p {
   margin-bottom: 1rem;
 }
 
+.extra{
+  font-size: 1.3rem;}
+
 abbr[title],
 abbr[data-bs-original-title] {
   text-decoration: underline dotted;
