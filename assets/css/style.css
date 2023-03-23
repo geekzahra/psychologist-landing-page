@@ -10451,3 +10451,27 @@ to {
 .st13{opacity:0.2;}
 .st14{clip-path:url(#SVGID_16_);}
 .st15{opacity:0.3;fill:#FFFFFF;enable-background:new    ;}
+
+.typing {
+  color: hsl(0, 0%, 28%);
+  font-weight: bold;
+}
+
+.typing {
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 460px;
+  }
+  100% {
+    background-position: 460px;
+  }
+}
